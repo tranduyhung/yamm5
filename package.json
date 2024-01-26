@@ -18,12 +18,12 @@
         "test": "tap test/basic.js"
     },
     "devDependencies": {
-        "less": "3.10.3",
-        "node-sass": "4.13.0",
-        "pug": "2.0.4",
-        "pug-cli": "1.0.0-alpha6",
-        "stylus": "0.54.7",
-        "tap": "14.10.1"
+        "less": "^4.2.0",
+        "node-sass": "^9.0.0",
+        "pug": "^3.0.2",
+        "pug-cli": "^1.0.0-alpha6",
+        "stylus": "^0.62.0",
+        "tap": "^18.7.0"
     },
     "nyc": {
         "temp-dir": "./node_modules/.nyc_output"
