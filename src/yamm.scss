@@ -12,6 +12,11 @@
 $yamm-content-padding: 1rem !default;
 
 .yamm {
+    // Responsive table
+    .navbar-collapse.collapse {
+        width: 100%;
+    }
+
     // reset positions
     .collapse,
     .dropup,

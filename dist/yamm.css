@@ -4,6 +4,10 @@
  *
  * @geedmo - Licensed under the MIT license
  */
+.yamm .navbar-collapse.collapse {
+  width: 100%;
+}
+
 .yamm .collapse,
 .yamm .dropup,
 .yamm .dropdown {

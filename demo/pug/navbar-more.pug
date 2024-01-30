@@ -2,7 +2,7 @@
 nav.yamm.navbar.navbar-expand-lg.bg-light
   .container-fluid
     a.navbar-brand(href='#') Yamm Megamenu
-    button.navbar-toggler(type='button' data-bs-toggle='collapse' data-target='#navbar-collapse-2' aria-controls='navbar-collapse-2' aria-expanded='false' aria-label='Toggle navigation')
+    button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbar-collapse-2' aria-controls='navbar-collapse-2' aria-expanded='false' aria-label='Toggle navigation')
         span.navbar-toggler-icon
     #navbar-collapse-2.navbar-collapse.collapse
       ul.navbar-nav
@@ -31,39 +31,40 @@ nav.yamm.navbar.navbar-expand-lg.bg-light
             | Tables
           .dropdown-menu.p-0
             .yamm-content
-              table.table.table-hover.table-bordered.mb-0
-                thead
-                  tr
-                    th #
-                    th First Name
-                    th Last Name
-                    th Username
-                    th First Name
-                    th Last Name
-                    th Username
-                tbody
-                  tr
-                    td 1
-                    td Mark
-                    td Otto
-                    td @mdo
-                    td Mark
-                    td Otto
-                    td @mdo
-                  tr
-                    td 2
-                    td Jacob
-                    td Thornton
-                    td @fat
-                    td Jacob
-                    td Thornton
-                    td @fat
-                  tr
-                    td 3
-                    td(colspan='2') Larry the Bird
-                    td @twitter
-                    td(colspan='2') Larry the Bird
-                    td @twitter
+              .table-responsive
+                table.table.table-hover.table-bordered.mb-0
+                  thead
+                    tr
+                      th #
+                      th First Name
+                      th Last Name
+                      th Username
+                      th First Name
+                      th Last Name
+                      th Username
+                  tbody
+                    tr
+                      td 1
+                      td Mark
+                      td Otto
+                      td @mdo
+                      td Mark
+                      td Otto
+                      td @mdo
+                    tr
+                      td 2
+                      td Jacob
+                      td Thornton
+                      td @fat
+                      td Jacob
+                      td Thornton
+                      td @fat
+                    tr
+                      td 3
+                      td(colspan='2') Larry the Bird
+                      td @twitter
+                      td(colspan='2') Larry the Bird
+                      td @twitter
         // Thumbnails demo
         li.dropdown
           a.nav-link.dropdown-toggle(href='#', data-bs-toggle='dropdown' data-bs-auto-close='outside')
