@@ -90,18 +90,6 @@ html(lang='en')
         p.lead More components
         include navbar-more.pug
 
-    .container
-      .row
-        .col-md-4
-          p.lead JavaScript
-          p This code will prevent unexpected menu close when using some components (like accordion, forms, etc)
-
-        .col-md-8
-          pre.prettyprint
-            | $(document).on('click', '.yamm .dropdown-menu', function(e) {
-            |   e.stopPropagation()
-            | })
-
       footer
           .d-flex.border-top.py-4
             .mr-auto
